@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #576ccf, #7f4cac);
+  background:black;
   color: #333;
 }
 
@@ -32,7 +32,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #87b1ea;
+  color: #8d83f1;
 }
 
 h1 {
@@ -46,7 +46,8 @@ nav {
 }
 
 nav a {
-  color: #87b1ea;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 nav ul {
@@ -59,7 +60,7 @@ nav ul {
 /* Style the button */
 nav button {
   background-color: #333; /* Background color for the button */
-  color: #87b1ea; /* Text color */
+  color: #8d83f1; /* Text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -70,12 +71,12 @@ nav button {
 
 /* Style the button on hover */
 nav button:hover {
-  background-color:#87b1ea; /* Background color on hover */
+  background-color:#8d83f1; /* Background color on hover */
   color: #333; /* Text color on hover */
 }
 
 nav span{
-  color: #87b1ea;
+  color: #8d83f1;
 }
 
 
@@ -92,19 +93,21 @@ nav span{
 
 /* Style the login form */
 .login-form {
-  background-color: #bbb0ff;
-  padding: 60px;
-  border-radius: 9px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+    padding: 60px;
+    border-radius: 9px;
+    color: #8d83f1;
+    box-shadow: 0 0 39px rgb(160 0 255);
 }
 
 
 /* Style the signup form */
 .signup-form {
-  background-color: #bbb0ff;
+  background-color: #08080b;
   padding: 60px;
+  color: #8d83f1;
   border-radius: 9px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 39px rgb(160 0 255);
 }
 
 .form-group {
@@ -132,10 +135,11 @@ nav span{
 }
 
 .form-button {
-  background-color: #333;
-  color: #fff;
+  background-color: #957cec;
+  color: #000;
   padding: 10px 20px;
   border: none;
+  font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
@@ -143,7 +147,7 @@ nav span{
 
 /* Error message style */
 .error {
-  color: #ff0000;
+  color: #b90000;
   font-size: 14px;
   margin-top: 10px;
 }
@@ -154,35 +158,36 @@ nav span{
 /* Style the home container */
 .home {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #ffffff5c;
-  padding: 20px;
-  align-items: center;
-  border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #bbb0ff;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    color: #3d035c;
 }
 
 /* Style the tasks container */
 .tasks {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-around;
-  flex-direction: row;
-  overflow-y: auto;
-  max-height: 600px;
-  background-color: #6e99e8;
-  border: 1px solid #b0caec;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 10px;
-  width: 300px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow-y: auto;
+    max-height: 600px;
+    background-color: #997cfa;
+    border: 1px solid #f8f8f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
 
 }
 
 /* Style the task details */
 .task-details {
-  background-color: #bbb0ff;
+  background-color: #3d035c;
   border: 1px solid #d2d1d6;
   border-radius: 5px;
   padding: 20px;
@@ -191,16 +196,19 @@ nav span{
   margin-bottom: 20px;
   align-items: flex-start;
   flex-direction: column;
+  color: white;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
 }
 
 p {
   margin: 5px 0;
+  font-size: 15px;
 }
 
 strong {
@@ -210,12 +218,13 @@ strong {
 .material-symbols-outlined {
   margin-right: 10px;
   cursor: pointer;
+  margin-top: 7px;
 }
 
 
 /* Style the create form */
 .create {
-  background-color: #6e99e8;
+  background-color: #997cfa;
   border: 1px solid #fff;
   border-radius: 5px;
   padding: 20px;
@@ -244,8 +253,8 @@ select {
 }
 
 .create button {
-  background-color: #333;
-  color: #fff;
+  background-color: #3d035c;
+  color: #bbb0ff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -255,7 +264,8 @@ select {
 }
 
 button:hover {
-  background-color: #444; /* Darken the background color on hover */
+  background-color: #202020;
+  color: #fff; /* Darken the background color on hover */
 }
 
 
